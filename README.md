@@ -62,9 +62,6 @@ financial data from 2000, 2001, 2002, 2003, and 2004. As the software developer,
 been tasked with providing a software design and quality assurance plan to address the
 ticket and ensure expected behavior.
 
-### Requirements
-
-
 
 
 <!-- CONTACT -->
