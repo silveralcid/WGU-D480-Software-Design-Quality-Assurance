@@ -1,9 +1,9 @@
 <a id="readme-top"></a>
 
-<h3 align="center">Software I - C#</h3>
+<h3 align="center">Software Design and Quality Assurance</h3>
 
   <p align="center">
-    Course C968 - Western Governer's University
+    Course D480 - Western Governer's University
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
@@ -14,41 +14,56 @@
 ## About The Project
 
 
-
-### Built With
-
-* .NET
-
-
 ## Course Information
 
-Software I - C# builds object-oriented programming expertise and introduces powerful new tools for C# application development. You will learn about and put into action: class design, exception handling, and other object-oriented principles and constructs to develop software that meets business requirements. This course requires foundational knowledge of object-oriented programming.
+Software Design and Quality Assurance applies a QA focus to every phase of the software development life cycle. This course investigates best practices for quality analysis, quality planning, and testing strategies as they pertain to the everyday practice of software development. Students will come to understand how their work fits into the bigger picture: how QA, testing, and code-writing practices interact within specific process models; the potential impact of new code on existing code or on other applications; the importance of usability and the influence users have on the ultimate success of an application. Students will explore test plans, test cases, unit tests, integration tests, regression tests, usability tests, and test and review tools.
 
 ### Competencies
 
-**Classes and Interfaces**
+**Determines Impact on Business Requirements**
+The learner determines the impact of business requirements on software design patterns and software systems.
 
-The graduate designs software solutions with appropriate classes, objects, methods, and interfaces to achieve specific goals.
+**Identifies Goals and Roadblocks**
+The learner identifies goals and potential roadblocks as part of software development plans.
 
-**Object-Oriented Principles**
+**Defines Plans for Development Tasks and Environments**
+The learner defines plans for development tasks and environments based on desired quality outcomes.
 
-The graduate implements object-oriented design principles (e.g., inheritance, encapsulation, and abstraction) in developing applications for ensuring the application's scalability.
-
-**Application Development**
-
-The graduate produces applications using high-level programming language constructs to meet business requirements.
-
-**Exception Handling**
-The graduate incorporates simple exception handling in application development for improving user experience and application stability.
-
-**User Interface Development**
-The graduate develops user interfaces to meet project requirements.
+**Recommends Tools and Services**
+The learner recommends tools and services to address functional and non-functional testing outcomes.
 
 ### Scenario
 
-You are working for a small manufacturing organization that has outgrown its current inventory system. They have been using a spreadsheet program to manually enter inventory additions, deletions, and other data from a paper-based system but would now like you to develop a more sophisticated inventory program.
+Endothon Finance is a loan servicing company specializing in loans for small businesses
+wishing to expand or improve their operations. Recent changes to Endothon Finance’s loan
+application process necessitated the launch of a new applicant-facing web app. Businesses
+applying for a loan through Endothon Finance interact with the web app, experiencing a
+streamlined process with customized loan application requirements based on core details
+(e.g., business age, industry, number of employees). The information collected during this
+process is used by Endothon Finance to construct a loan profile of each business, which is
+shared with a list of partnered lending vendors. The automation of both the web app’s logic based requirements and the dissemination of the loan profile to potential lenders allows
+quicker processing of loan applications.
 
-They have provided you with a mock-up of the user interface to use in the design and development of the system (see the attached "GUI Mock-Up") and a class diagram to assist you in your work (see the attached "UML Class Diagram"). The organization also has specific business requirements that must be included as part of the application. A system analyst from your company created the solution statements outlined in the requirements section based on the manufacturing organization's business requirements. You will use these solution statements to develop your application.
+Endothon Finance requires business applicants to provide their previous five years of
+financial data to determine qualification status. The web app was intended to request
+financial data for the five most recently completed fiscal years of a business, disregarding
+the current year. If a business was created less than five years ago, the web app logic
+should adjust and instead request the most current years in business and a forecast for the
+remaining future years. For example, if a business was established in 2000 and the current
+year was 2023, then the web app should request historical financial data from 2018, 2019,
+2020, 2021, and 2022. Alternatively, if a business was established in 2020 and the current
+year was 2023, then the web app should request historical financial data from 2020, 2021,
+and 2022, as well as projected financial data from 2023 and 2024.
+An internal ticket has been prioritized due to unexpected results in the new web app. Loan
+profiles created by the web app are being returned with the first five fiscal years of financial
+data as opposed to the five most recent years. For example, if a business was established in
+2000 and the current year was 2023, then the web app is incorrectly requesting historical
+financial data from 2000, 2001, 2002, 2003, and 2004. As the software developer, you have
+been tasked with providing a software design and quality assurance plan to address the
+ticket and ensure expected behavior.
+
+### Requirements
+
 
 
 
