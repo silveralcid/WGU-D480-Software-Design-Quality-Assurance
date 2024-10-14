@@ -21,15 +21,19 @@ Software Design and Quality Assurance applies a QA focus to every phase of the s
 ### Competencies
 
 **Determines Impact on Business Requirements**
+
 The learner determines the impact of business requirements on software design patterns and software systems.
 
 **Identifies Goals and Roadblocks**
+
 The learner identifies goals and potential roadblocks as part of software development plans.
 
 **Defines Plans for Development Tasks and Environments**
+
 The learner defines plans for development tasks and environments based on desired quality outcomes.
 
 **Recommends Tools and Services**
+
 The learner recommends tools and services to address functional and non-functional testing outcomes.
 
 ### Scenario
