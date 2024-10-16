@@ -11,7 +11,20 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+For this class project, I developed a detailed software design and quality assurance plan to solve a major issue in Endothon Finance's web application. The main goal was to fix the app's logic for retrieving financial data, ensuring it pulls data from the last five fiscal years or combines historical and forecasted data for newer companies.
 
+The design plan includes:
+
+A business case that explains the problem and the business requirements.
+Both functional and non-functional requirements that guide the development process.
+A breakdown of how the software will work, focusing on components like the FiscalYearService, FinancialDataEntryUI, and DataValidationService.
+A development plan outlining deliverables, using an Agile approach to ensure continuous progress.
+For quality assurance:
+
+The testing plan covers both functional and non-functional testing goals.
+It sets clear metrics for accuracy, speed, data completeness, performance, and usability.
+The plan includes a variety of tests, such as unit, integration, performance, and usability tests, in a logical order to fully validate the system.
+Together, these documents showcase a structured, step-by-step approach to software development and testing, following industry best practices. The goal is to create a reliable solution that fixes the issue while maintaining strong performance and user experience. 
 
 ## Course Information
 
