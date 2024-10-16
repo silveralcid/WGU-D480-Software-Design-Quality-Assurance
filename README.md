@@ -6,7 +6,6 @@
     Course D480 - Western Governer's University
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
 </div>
 
 
